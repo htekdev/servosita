@@ -138,7 +138,7 @@ export default function Home() {
             Precios para todos los salones
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-[#7A5C6B]">
-            Empieza gratis. Crece a tu ritmo.
+            Desde $89 MXN/mes. Cuesta lo que cobras por un corte.
           </p>
           <div className="mt-12 grid gap-6 md:grid-cols-4">
             <PricingCard
@@ -146,43 +146,47 @@ export default function Home() {
               price="$0"
               features={[
                 "1 estilista",
-                "30 citas/mes",
-                "Agenda manual",
+                "50 citas/mes",
+                "Walk-in queue",
+                "Cash tracking",
                 "Onboarding por voz",
               ]}
             />
             <PricingCard
-              name="Básico"
-              price="$199"
+              name="Profesional"
+              price="$89"
               period="MXN/mes"
               features={[
                 "Citas ilimitadas",
-                "Agenda online",
+                "WhatsApp booking",
                 "CRM de clientes",
+                "Recordatorios auto",
                 "Facturación",
               ]}
             />
             <PricingCard
-              name="Pro"
-              price="$499"
+              name="Salón"
+              price="$179"
               period="MXN/mes"
               popular
               features={[
-                "WhatsApp booking",
+                "Multi-estilista (5)",
+                "Paquetes quinceañera/boda",
                 "Automatizaciones",
-                "Multi-estilista",
                 "Google Calendar",
+                "Analytics",
               ]}
             />
             <PricingCard
               name="Equipo"
-              price="$999"
+              price="$249"
               period="MXN/mes"
               features={[
+                "Estilistas ilimitadas",
                 "Comisiones",
-                "Inventario",
-                "Marketing",
                 "Multi-sucursal",
+                "Marketing WhatsApp",
+                "Inventario",
               ]}
             />
           </div>
